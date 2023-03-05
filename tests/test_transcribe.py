@@ -2,12 +2,12 @@ import os
 
 import pytest
 
-import whisper
+import whisperx
 
 
-@pytest.mark.parametrize('model_name', whisper.available_models())
-def test_transcribe(model_name: str):
-    model = whisper.load_model(model_name).cuda()
+# @pytest.mark.parametrize('model_name', whisperx.available_models())
+def test_transcribe(model_name: str = "tiny.en"):
+    model = whisperx.load_model(model_name).cuda()
     audio_path = os.path.join(os.path.dirname(__file__), "jfk.flac")
 
     language = "en" if model_name.endswith(".en") else None

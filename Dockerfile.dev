@@ -1,0 +1,35 @@
+# this is the dockerfile for development environment
+# contains dependencies for both Whisper and Pronun
+# when you update Whiper and Pronun's dependencies,
+# update their prod Dockerfiles in their folders
+# and update this one too
+
+FROM mwader/static-ffmpeg:5.1.2 AS ffmpeg_image
+
+FROM mcr.microsoft.com/devcontainers/python:0-3.9 AS base
+
+COPY --from=ffmpeg_image /ffmpeg /usr/local/bin/
+
+WORKDIR /home/vscode/
+
+ENV PATH="${PATH}:/home/vscode/.local/bin/"
+
+USER root
+RUN apt-get update && apt-get install espeak-ng libpangocairo-1.0-0 -y
+USER vscode
+
+RUN pip install pytest black isort
+
+# COPY pronun_lambda/requirements.txt .
+# RUN pip install -r requirements.txt
+
+# COPY whisper_lambda/requirements.txt .
+# RUN pip install -r requirements.txt
+
+# COPY wav2phoneme_lambda/requirements.txt .
+# RUN pip install -r requirements.txt
+
+COPY . .
+RUN pip install -e .
+
+CMD [ "/bin/bash" ]

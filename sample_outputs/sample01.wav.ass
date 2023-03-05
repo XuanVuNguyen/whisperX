@@ -1,0 +1,319 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 384
+PlayResY: 288
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&Hffffff,&Hffffff,&H0,&H0,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:1.53,0:00:1.69,Default,,0,0,0,,{\1c&HFF00&\u1}Oh,{\r} I'm okay. I will be.
+Dialogue: 0,0:00:1.69,0:00:1.71,Default,,0,0,0,,Oh, I'm okay. I will be.
+Dialogue: 0,0:00:1.71,0:00:1.97,Default,,0,0,0,,Oh, {\1c&HFF00&\u1}I'm{\r} okay. I will be.
+Dialogue: 0,0:00:1.97,0:00:2.07,Default,,0,0,0,,Oh, I'm okay. I will be.
+Dialogue: 0,0:00:2.07,0:00:2.39,Default,,0,0,0,,Oh, I'm {\1c&HFF00&\u1}okay.{\r} I will be.
+Dialogue: 0,0:00:2.39,0:00:2.61,Default,,0,0,0,,Oh, I'm okay. I will be.
+Dialogue: 0,0:00:2.61,0:00:2.63,Default,,0,0,0,,Oh, I'm okay. {\1c&HFF00&\u1}I{\r} will be.
+Dialogue: 0,0:00:2.63,0:00:2.65,Default,,0,0,0,,Oh, I'm okay. I will be.
+Dialogue: 0,0:00:2.65,0:00:2.79,Default,,0,0,0,,Oh, I'm okay. I {\1c&HFF00&\u1}will{\r} be.
+Dialogue: 0,0:00:2.79,0:00:2.81,Default,,0,0,0,,Oh, I'm okay. I will be.
+Dialogue: 0,0:00:2.81,0:00:2.89,Default,,0,0,0,,Oh, I'm okay. I will {\1c&HFF00&\u1}be.{\r}
+Dialogue: 0,0:00:2.28,0:00:2.38,Default,,0,0,0,,{\1c&HFF00&\u1}I{\r} said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:2.38,0:00:2.46,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:2.46,0:00:2.92,Default,,0,0,0,,I {\1c&HFF00&\u1}said{\r} she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:2.92,0:00:2.96,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:2.96,0:00:3.27,Default,,0,0,0,,I said {\1c&HFF00&\u1}she{\r} could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:3.27,0:00:3.63,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:3.63,0:00:3.89,Default,,0,0,0,,I said she {\1c&HFF00&\u1}could{\r} stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:3.89,0:00:3.91,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:3.91,0:00:4.39,Default,,0,0,0,,I said she could {\1c&HFF00&\u1}stay{\r} with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:4.39,0:00:4.49,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:4.49,0:00:4.69,Default,,0,0,0,,I said she could stay {\1c&HFF00&\u1}with{\r} us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:4.69,0:00:4.71,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:4.71,0:00:4.75,Default,,0,0,0,,I said she could stay with {\1c&HFF00&\u1}us,{\r} Mum. I just thought she feels better.
+Dialogue: 0,0:00:4.75,0:00:5.37,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:5.37,0:00:5.49,Default,,0,0,0,,I said she could stay with us, {\1c&HFF00&\u1}Mum.{\r} I just thought she feels better.
+Dialogue: 0,0:00:5.49,0:00:5.59,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:5.59,0:00:5.69,Default,,0,0,0,,I said she could stay with us, Mum. {\1c&HFF00&\u1}I{\r} just thought she feels better.
+Dialogue: 0,0:00:5.69,0:00:5.73,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:5.73,0:00:5.90,Default,,0,0,0,,I said she could stay with us, Mum. I {\1c&HFF00&\u1}just{\r} thought she feels better.
+Dialogue: 0,0:00:5.90,0:00:5.92,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:5.92,0:00:6.46,Default,,0,0,0,,I said she could stay with us, Mum. I just {\1c&HFF00&\u1}thought{\r} she feels better.
+Dialogue: 0,0:00:6.46,0:00:6.48,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:6.48,0:00:6.70,Default,,0,0,0,,I said she could stay with us, Mum. I just thought {\1c&HFF00&\u1}she{\r} feels better.
+Dialogue: 0,0:00:6.70,0:00:6.72,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:6.72,0:00:6.82,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she {\1c&HFF00&\u1}feels{\r} better.
+Dialogue: 0,0:00:6.82,0:00:6.84,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels better.
+Dialogue: 0,0:00:6.84,0:00:6.96,Default,,0,0,0,,I said she could stay with us, Mum. I just thought she feels {\1c&HFF00&\u1}better.{\r}
+Dialogue: 0,0:00:5.42,0:00:5.68,Default,,0,0,0,,{\1c&HFF00&\u1}Yeah,{\r} of course she can.
+Dialogue: 0,0:00:5.68,0:00:5.76,Default,,0,0,0,,Yeah, of course she can.
+Dialogue: 0,0:00:5.76,0:00:5.88,Default,,0,0,0,,Yeah, {\1c&HFF00&\u1}of{\r} course she can.
+Dialogue: 0,0:00:5.88,0:00:5.94,Default,,0,0,0,,Yeah, of course she can.
+Dialogue: 0,0:00:5.94,0:00:6.47,Default,,0,0,0,,Yeah, of {\1c&HFF00&\u1}course{\r} she can.
+Dialogue: 0,0:00:6.47,0:00:6.57,Default,,0,0,0,,Yeah, of course she can.
+Dialogue: 0,0:00:6.57,0:00:6.79,Default,,0,0,0,,Yeah, of course {\1c&HFF00&\u1}she{\r} can.
+Dialogue: 0,0:00:6.79,0:00:6.83,Default,,0,0,0,,Yeah, of course she can.
+Dialogue: 0,0:00:6.83,0:00:6.97,Default,,0,0,0,,Yeah, of course she {\1c&HFF00&\u1}can.{\r}
+Dialogue: 0,0:00:7.00,0:00:7.60,Default,,0,0,0,,{\1c&HFF00&\u1}Oh,{\r} this won't be for long.
+Dialogue: 0,0:00:7.60,0:00:7.62,Default,,0,0,0,,Oh, this won't be for long.
+Dialogue: 0,0:00:7.62,0:00:8.47,Default,,0,0,0,,Oh, {\1c&HFF00&\u1}this{\r} won't be for long.
+Dialogue: 0,0:00:8.47,0:00:8.49,Default,,0,0,0,,Oh, this won't be for long.
+Dialogue: 0,0:00:8.49,0:00:8.75,Default,,0,0,0,,Oh, this {\1c&HFF00&\u1}won't{\r} be for long.
+Dialogue: 0,0:00:8.75,0:00:8.79,Default,,0,0,0,,Oh, this won't be for long.
+Dialogue: 0,0:00:8.79,0:00:8.95,Default,,0,0,0,,Oh, this won't {\1c&HFF00&\u1}be{\r} for long.
+Dialogue: 0,0:00:8.95,0:00:8.97,Default,,0,0,0,,Oh, this won't be for long.
+Dialogue: 0,0:00:8.97,0:00:9.33,Default,,0,0,0,,Oh, this won't be {\1c&HFF00&\u1}for{\r} long.
+Dialogue: 0,0:00:9.33,0:00:9.35,Default,,0,0,0,,Oh, this won't be for long.
+Dialogue: 0,0:00:9.35,0:00:9.45,Default,,0,0,0,,Oh, this won't be for {\1c&HFF00&\u1}long.{\r}
+Dialogue: 0,0:00:9.34,0:00:9.48,Default,,0,0,0,,{\1c&HFF00&\u1}Well,{\r} you can stay as long as you want, my love.
+Dialogue: 0,0:00:9.48,0:00:9.52,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:9.52,0:00:9.60,Default,,0,0,0,,Well, {\1c&HFF00&\u1}you{\r} can stay as long as you want, my love.
+Dialogue: 0,0:00:9.60,0:00:9.62,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:9.62,0:00:9.76,Default,,0,0,0,,Well, you {\1c&HFF00&\u1}can{\r} stay as long as you want, my love.
+Dialogue: 0,0:00:9.76,0:00:9.78,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:9.78,0:00:9.92,Default,,0,0,0,,Well, you can {\1c&HFF00&\u1}stay{\r} as long as you want, my love.
+Dialogue: 0,0:00:9.92,0:00:9.94,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:9.94,0:00:9.98,Default,,0,0,0,,Well, you can stay {\1c&HFF00&\u1}as{\r} long as you want, my love.
+Dialogue: 0,0:00:9.98,0:00:10.01,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:10.01,0:00:10.09,Default,,0,0,0,,Well, you can stay as {\1c&HFF00&\u1}long{\r} as you want, my love.
+Dialogue: 0,0:00:10.09,0:00:10.13,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:10.13,0:00:10.17,Default,,0,0,0,,Well, you can stay as long {\1c&HFF00&\u1}as{\r} you want, my love.
+Dialogue: 0,0:00:10.17,0:00:10.23,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:10.23,0:00:10.45,Default,,0,0,0,,Well, you can stay as long as {\1c&HFF00&\u1}you{\r} want, my love.
+Dialogue: 0,0:00:10.45,0:00:10.47,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:10.47,0:00:10.59,Default,,0,0,0,,Well, you can stay as long as you {\1c&HFF00&\u1}want,{\r} my love.
+Dialogue: 0,0:00:10.59,0:00:10.61,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:10.61,0:00:10.69,Default,,0,0,0,,Well, you can stay as long as you want, {\1c&HFF00&\u1}my{\r} love.
+Dialogue: 0,0:00:10.69,0:00:10.71,Default,,0,0,0,,Well, you can stay as long as you want, my love.
+Dialogue: 0,0:00:10.71,0:00:10.81,Default,,0,0,0,,Well, you can stay as long as you want, my {\1c&HFF00&\u1}love.{\r}
+Dialogue: 0,0:00:11.14,0:00:11.86,Default,,0,0,0,,{\1c&HFF00&\u1}You{\r} really missed you.
+Dialogue: 0,0:00:11.86,0:00:12.09,Default,,0,0,0,,You really missed you.
+Dialogue: 0,0:00:12.09,0:00:13.67,Default,,0,0,0,,You {\1c&HFF00&\u1}really{\r} missed you.
+Dialogue: 0,0:00:13.67,0:00:13.83,Default,,0,0,0,,You really missed you.
+Dialogue: 0,0:00:13.83,0:00:14.14,Default,,0,0,0,,You really {\1c&HFF00&\u1}missed{\r} you.
+Dialogue: 0,0:00:14.14,0:00:14.20,Default,,0,0,0,,You really missed you.
+Dialogue: 0,0:00:14.20,0:00:14.28,Default,,0,0,0,,You really missed {\1c&HFF00&\u1}you.{\r}
+Dialogue: 0,0:00:13.83,0:00:14.07,Default,,0,0,0,,{\1c&HFF00&\u1}Pops.{\r}
+Dialogue: 0,0:00:14.00,0:00:14.36,Default,,0,0,0,,{\1c&HFF00&\u1}Great{\r} to see you, love.
+Dialogue: 0,0:00:14.36,0:00:14.40,Default,,0,0,0,,Great to see you, love.
+Dialogue: 0,0:00:14.40,0:00:14.50,Default,,0,0,0,,Great {\1c&HFF00&\u1}to{\r} see you, love.
+Dialogue: 0,0:00:14.50,0:00:14.52,Default,,0,0,0,,Great to see you, love.
+Dialogue: 0,0:00:14.52,0:00:14.58,Default,,0,0,0,,Great to {\1c&HFF00&\u1}see{\r} you, love.
+Dialogue: 0,0:00:14.58,0:00:14.60,Default,,0,0,0,,Great to see you, love.
+Dialogue: 0,0:00:14.60,0:00:14.74,Default,,0,0,0,,Great to see {\1c&HFF00&\u1}you,{\r} love.
+Dialogue: 0,0:00:14.74,0:00:14.78,Default,,0,0,0,,Great to see you, love.
+Dialogue: 0,0:00:14.78,0:00:15.03,Default,,0,0,0,,Great to see you, {\1c&HFF00&\u1}love.{\r}
+Dialogue: 0,0:00:16.00,0:00:16.08,Default,,0,0,0,,{\1c&HFF00&\u1}Oh.{\r}
+Dialogue: 0,0:00:17.18,0:00:17.34,Default,,0,0,0,,{\1c&HFF00&\u1}All{\r} right, shall we get you off to bed, then?
+Dialogue: 0,0:00:17.34,0:00:17.58,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:17.58,0:00:17.76,Default,,0,0,0,,All {\1c&HFF00&\u1}right,{\r} shall we get you off to bed, then?
+Dialogue: 0,0:00:17.76,0:00:17.84,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:17.84,0:00:18.15,Default,,0,0,0,,All right, {\1c&HFF00&\u1}shall{\r} we get you off to bed, then?
+Dialogue: 0,0:00:18.15,0:00:18.21,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:18.21,0:00:18.37,Default,,0,0,0,,All right, shall {\1c&HFF00&\u1}we{\r} get you off to bed, then?
+Dialogue: 0,0:00:18.37,0:00:18.39,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:18.39,0:00:18.59,Default,,0,0,0,,All right, shall we {\1c&HFF00&\u1}get{\r} you off to bed, then?
+Dialogue: 0,0:00:18.59,0:00:18.65,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:18.65,0:00:18.77,Default,,0,0,0,,All right, shall we get {\1c&HFF00&\u1}you{\r} off to bed, then?
+Dialogue: 0,0:00:18.77,0:00:18.79,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:18.79,0:00:18.89,Default,,0,0,0,,All right, shall we get you {\1c&HFF00&\u1}off{\r} to bed, then?
+Dialogue: 0,0:00:18.89,0:00:18.91,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:18.91,0:00:18.95,Default,,0,0,0,,All right, shall we get you off {\1c&HFF00&\u1}to{\r} bed, then?
+Dialogue: 0,0:00:18.95,0:00:19.49,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:19.49,0:00:19.97,Default,,0,0,0,,All right, shall we get you off to {\1c&HFF00&\u1}bed,{\r} then?
+Dialogue: 0,0:00:19.97,0:00:20.20,Default,,0,0,0,,All right, shall we get you off to bed, then?
+Dialogue: 0,0:00:20.20,0:00:20.32,Default,,0,0,0,,All right, shall we get you off to bed, {\1c&HFF00&\u1}then?{\r}
+Dialogue: 0,0:00:19.48,0:00:19.90,Default,,0,0,0,,{\1c&HFF00&\u1}You{\r} should have given me some room
+Dialogue: 0,0:00:19.90,0:00:20.25,Default,,0,0,0,,You should have given me some room
+Dialogue: 0,0:00:20.25,0:00:20.39,Default,,0,0,0,,You {\1c&HFF00&\u1}should{\r} have given me some room
+Dialogue: 0,0:00:20.39,0:00:20.41,Default,,0,0,0,,You should have given me some room
+Dialogue: 0,0:00:20.41,0:00:20.49,Default,,0,0,0,,You should {\1c&HFF00&\u1}have{\r} given me some room
+Dialogue: 0,0:00:20.49,0:00:20.51,Default,,0,0,0,,You should have given me some room
+Dialogue: 0,0:00:20.51,0:00:20.63,Default,,0,0,0,,You should have {\1c&HFF00&\u1}given{\r} me some room
+Dialogue: 0,0:00:20.63,0:00:20.67,Default,,0,0,0,,You should have given me some room
+Dialogue: 0,0:00:20.67,0:00:20.77,Default,,0,0,0,,You should have given {\1c&HFF00&\u1}me{\r} some room
+Dialogue: 0,0:00:20.77,0:00:20.81,Default,,0,0,0,,You should have given me some room
+Dialogue: 0,0:00:20.81,0:00:21.01,Default,,0,0,0,,You should have given me {\1c&HFF00&\u1}some{\r} room
+Dialogue: 0,0:00:21.01,0:00:21.05,Default,,0,0,0,,You should have given me some room
+Dialogue: 0,0:00:21.05,0:00:21.15,Default,,0,0,0,,You should have given me some {\1c&HFF00&\u1}room{\r}
+Dialogue: 0,0:00:22.01,0:00:22.27,Default,,0,0,0,,{\1c&HFF00&\u1}and{\r} I'd have put the electric blanket on.
+Dialogue: 0,0:00:22.27,0:00:23.33,Default,,0,0,0,,and I'd have put the electric blanket on.
+Dialogue: 0,0:00:23.33,0:00:23.41,Default,,0,0,0,,and {\1c&HFF00&\u1}I'd{\r} have put the electric blanket on.
+Dialogue: 0,0:00:23.41,0:00:23.45,Default,,0,0,0,,and I'd have put the electric blanket on.
+Dialogue: 0,0:00:23.45,0:00:23.59,Default,,0,0,0,,and I'd {\1c&HFF00&\u1}have{\r} put the electric blanket on.
+Dialogue: 0,0:00:23.59,0:00:23.61,Default,,0,0,0,,and I'd have put the electric blanket on.
+Dialogue: 0,0:00:23.61,0:00:23.67,Default,,0,0,0,,and I'd have {\1c&HFF00&\u1}put{\r} the electric blanket on.
+Dialogue: 0,0:00:23.67,0:00:23.77,Default,,0,0,0,,and I'd have put the electric blanket on.
+Dialogue: 0,0:00:23.77,0:00:23.83,Default,,0,0,0,,and I'd have put {\1c&HFF00&\u1}the{\r} electric blanket on.
+Dialogue: 0,0:00:23.83,0:00:23.85,Default,,0,0,0,,and I'd have put the electric blanket on.
+Dialogue: 0,0:00:23.85,0:00:24.22,Default,,0,0,0,,and I'd have put the {\1c&HFF00&\u1}electric{\r} blanket on.
+Dialogue: 0,0:00:24.22,0:00:24.26,Default,,0,0,0,,and I'd have put the electric blanket on.
+Dialogue: 0,0:00:24.26,0:00:24.44,Default,,0,0,0,,and I'd have put the electric {\1c&HFF00&\u1}blanket{\r} on.
+Dialogue: 0,0:00:24.44,0:00:24.68,Default,,0,0,0,,and I'd have put the electric blanket on.
+Dialogue: 0,0:00:24.68,0:00:24.72,Default,,0,0,0,,and I'd have put the electric blanket {\1c&HFF00&\u1}on.{\r}
+Dialogue: 0,0:00:23.16,0:00:23.40,Default,,0,0,0,,{\1c&HFF00&\u1}Sorry.{\r} All right, Della.
+Dialogue: 0,0:00:23.40,0:00:23.46,Default,,0,0,0,,Sorry. All right, Della.
+Dialogue: 0,0:00:23.46,0:00:23.56,Default,,0,0,0,,Sorry. {\1c&HFF00&\u1}All{\r} right, Della.
+Dialogue: 0,0:00:23.56,0:00:23.60,Default,,0,0,0,,Sorry. All right, Della.
+Dialogue: 0,0:00:23.60,0:00:23.81,Default,,0,0,0,,Sorry. All {\1c&HFF00&\u1}right,{\r} Della.
+Dialogue: 0,0:00:23.81,0:00:23.83,Default,,0,0,0,,Sorry. All right, Della.
+Dialogue: 0,0:00:23.83,0:00:23.97,Default,,0,0,0,,Sorry. All right, {\1c&HFF00&\u1}Della.{\r}
+Dialogue: 0,0:00:24.02,0:00:24.20,Default,,0,0,0,,{\1c&HFF00&\u1}Freeze.{\r}
+Dialogue: 0,0:00:25.04,0:00:25.10,Default,,0,0,0,,{\1c&HFF00&\u1}No,{\r} no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.10,0:00:25.22,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.22,0:00:25.28,Default,,0,0,0,,No, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.28,0:00:25.32,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.32,0:00:25.44,Default,,0,0,0,,No, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.44,0:00:25.50,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.50,0:00:25.58,Default,,0,0,0,,No, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.58,0:00:25.60,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.60,0:00:25.68,Default,,0,0,0,,No, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.68,0:00:25.82,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.82,0:00:25.98,Default,,0,0,0,,No, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:25.98,0:00:26.00,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.00,0:00:26.04,Default,,0,0,0,,No, no, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.04,0:00:26.06,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.06,0:00:26.10,Default,,0,0,0,,No, no, no, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.10,0:00:26.14,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.14,0:00:26.18,Default,,0,0,0,,No, no, no, no, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no, no.
+Dialogue: 0,0:00:26.18,0:00:26.20,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.20,0:00:26.27,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no, no.
+Dialogue: 0,0:00:26.27,0:00:26.35,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.35,0:00:26.41,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no, no.
+Dialogue: 0,0:00:26.41,0:00:26.45,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.45,0:00:26.49,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no, no.
+Dialogue: 0,0:00:26.49,0:00:26.51,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.51,0:00:26.55,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no, no.
+Dialogue: 0,0:00:26.55,0:00:26.57,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.57,0:00:26.61,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, {\1c&HFF00&\u1}no,{\r} no.
+Dialogue: 0,0:00:26.61,0:00:26.63,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+Dialogue: 0,0:00:26.63,0:00:26.67,Default,,0,0,0,,No, no, no, no, no, no, no, no, no, no, no, no, no, no, {\1c&HFF00&\u1}no.{\r}
+Dialogue: 0,0:00:28.62,0:00:28.70,Default,,0,0,0,,{\1c&HFF00&\u1}All{\r} right, then.
+Dialogue: 0,0:00:28.70,0:00:28.72,Default,,0,0,0,,All right, then.
+Dialogue: 0,0:00:28.72,0:00:28.85,Default,,0,0,0,,All {\1c&HFF00&\u1}right,{\r} then.
+Dialogue: 0,0:00:28.85,0:00:28.87,Default,,0,0,0,,All right, then.
+Dialogue: 0,0:00:28.87,0:00:29.01,Default,,0,0,0,,All right, {\1c&HFF00&\u1}then.{\r}
+Dialogue: 0,0:00:29.62,0:00:29.90,Default,,0,0,0,,{\1c&HFF00&\u1}Freeze{\r} them up there.
+Dialogue: 0,0:00:29.90,0:00:29.92,Default,,0,0,0,,Freeze them up there.
+Dialogue: 0,0:00:29.92,0:00:30.03,Default,,0,0,0,,Freeze {\1c&HFF00&\u1}them{\r} up there.
+Dialogue: 0,0:00:30.03,0:00:30.11,Default,,0,0,0,,Freeze them up there.
+Dialogue: 0,0:00:30.11,0:00:30.23,Default,,0,0,0,,Freeze them {\1c&HFF00&\u1}up{\r} there.
+Dialogue: 0,0:00:30.23,0:00:30.27,Default,,0,0,0,,Freeze them up there.
+Dialogue: 0,0:00:30.27,0:00:30.55,Default,,0,0,0,,Freeze them up {\1c&HFF00&\u1}there.{\r}
+Dialogue: 0,0:00:31.50,0:00:31.60,Default,,0,0,0,,{\1c&HFF00&\u1}In{\r} a bedroom, Peter unpacks her suitcase.
+Dialogue: 0,0:00:31.60,0:00:31.62,Default,,0,0,0,,In a bedroom, Peter unpacks her suitcase.
+Dialogue: 0,0:00:31.62,0:00:31.66,Default,,0,0,0,,In {\1c&HFF00&\u1}a{\r} bedroom, Peter unpacks her suitcase.
+Dialogue: 0,0:00:31.66,0:00:31.70,Default,,0,0,0,,In a bedroom, Peter unpacks her suitcase.
+Dialogue: 0,0:00:31.70,0:00:32.12,Default,,0,0,0,,In a {\1c&HFF00&\u1}bedroom,{\r} Peter unpacks her suitcase.
+Dialogue: 0,0:00:32.12,0:00:32.22,Default,,0,0,0,,In a bedroom, Peter unpacks her suitcase.
+Dialogue: 0,0:00:32.22,0:00:32.51,Default,,0,0,0,,In a bedroom, {\1c&HFF00&\u1}Peter{\r} unpacks her suitcase.
+Dialogue: 0,0:00:32.51,0:00:32.57,Default,,0,0,0,,In a bedroom, Peter unpacks her suitcase.
+Dialogue: 0,0:00:32.57,0:00:32.99,Default,,0,0,0,,In a bedroom, Peter {\1c&HFF00&\u1}unpacks{\r} her suitcase.
+Dialogue: 0,0:00:32.99,0:00:33.03,Default,,0,0,0,,In a bedroom, Peter unpacks her suitcase.
+Dialogue: 0,0:00:33.03,0:00:33.15,Default,,0,0,0,,In a bedroom, Peter unpacks {\1c&HFF00&\u1}her{\r} suitcase.
+Dialogue: 0,0:00:33.15,0:00:33.19,Default,,0,0,0,,In a bedroom, Peter unpacks her suitcase.
+Dialogue: 0,0:00:33.19,0:00:33.67,Default,,0,0,0,,In a bedroom, Peter unpacks her {\1c&HFF00&\u1}suitcase.{\r}
+Dialogue: 0,0:00:34.28,0:00:34.36,Default,,0,0,0,,{\1c&HFF00&\u1}The{\r} middle-aged woman opens her green case.
+Dialogue: 0,0:00:34.36,0:00:34.40,Default,,0,0,0,,The middle-aged woman opens her green case.
+Dialogue: 0,0:00:34.40,0:00:34.92,Default,,0,0,0,,The {\1c&HFF00&\u1}middle-aged{\r} woman opens her green case.
+Dialogue: 0,0:00:34.92,0:00:35.00,Default,,0,0,0,,The middle-aged woman opens her green case.
+Dialogue: 0,0:00:35.00,0:00:35.28,Default,,0,0,0,,The middle-aged {\1c&HFF00&\u1}woman{\r} opens her green case.
+Dialogue: 0,0:00:35.28,0:00:35.40,Default,,0,0,0,,The middle-aged woman opens her green case.
+Dialogue: 0,0:00:35.40,0:00:35.67,Default,,0,0,0,,The middle-aged woman {\1c&HFF00&\u1}opens{\r} her green case.
+Dialogue: 0,0:00:35.67,0:00:35.73,Default,,0,0,0,,The middle-aged woman opens her green case.
+Dialogue: 0,0:00:35.73,0:00:35.83,Default,,0,0,0,,The middle-aged woman opens {\1c&HFF00&\u1}her{\r} green case.
+Dialogue: 0,0:00:35.83,0:00:35.89,Default,,0,0,0,,The middle-aged woman opens her green case.
+Dialogue: 0,0:00:35.89,0:00:36.19,Default,,0,0,0,,The middle-aged woman opens her {\1c&HFF00&\u1}green{\r} case.
+Dialogue: 0,0:00:36.19,0:00:36.25,Default,,0,0,0,,The middle-aged woman opens her green case.
+Dialogue: 0,0:00:36.25,0:00:36.55,Default,,0,0,0,,The middle-aged woman opens her green {\1c&HFF00&\u1}case.{\r}
+Dialogue: 0,0:00:38.20,0:00:38.24,Default,,0,0,0,,{\1c&HFF00&\u1}Do{\r} you want, yeah, PJs?
+Dialogue: 0,0:00:38.24,0:00:38.26,Default,,0,0,0,,Do you want, yeah, PJs?
+Dialogue: 0,0:00:38.26,0:00:38.36,Default,,0,0,0,,Do {\1c&HFF00&\u1}you{\r} want, yeah, PJs?
+Dialogue: 0,0:00:38.36,0:00:38.38,Default,,0,0,0,,Do you want, yeah, PJs?
+Dialogue: 0,0:00:38.38,0:00:38.52,Default,,0,0,0,,Do you {\1c&HFF00&\u1}want,{\r} yeah, PJs?
+Dialogue: 0,0:00:38.52,0:00:38.56,Default,,0,0,0,,Do you want, yeah, PJs?
+Dialogue: 0,0:00:38.56,0:00:38.74,Default,,0,0,0,,Do you want, {\1c&HFF00&\u1}yeah,{\r} PJs?
+Dialogue: 0,0:00:38.74,0:00:38.92,Default,,0,0,0,,Do you want, yeah, PJs?
+Dialogue: 0,0:00:38.92,0:00:39.29,Default,,0,0,0,,Do you want, yeah, {\1c&HFF00&\u1}PJs?{\r}
+Dialogue: 0,0:00:40.02,0:00:40.16,Default,,0,0,0,,{\1c&HFF00&\u1}Yeah.{\r}
+Dialogue: 0,0:00:42.38,0:00:42.68,Default,,0,0,0,,{\1c&HFF00&\u1}Lifting{\r} a bundle of pajamas,
+Dialogue: 0,0:00:42.68,0:00:42.74,Default,,0,0,0,,Lifting a bundle of pajamas,
+Dialogue: 0,0:00:42.74,0:00:42.76,Default,,0,0,0,,Lifting {\1c&HFF00&\u1}a{\r} bundle of pajamas,
+Dialogue: 0,0:00:42.76,0:00:42.80,Default,,0,0,0,,Lifting a bundle of pajamas,
+Dialogue: 0,0:00:42.80,0:00:43.11,Default,,0,0,0,,Lifting a {\1c&HFF00&\u1}bundle{\r} of pajamas,
+Dialogue: 0,0:00:43.11,0:00:43.15,Default,,0,0,0,,Lifting a bundle of pajamas,
+Dialogue: 0,0:00:43.15,0:00:43.19,Default,,0,0,0,,Lifting a bundle {\1c&HFF00&\u1}of{\r} pajamas,
+Dialogue: 0,0:00:43.19,0:00:43.25,Default,,0,0,0,,Lifting a bundle of pajamas,
+Dialogue: 0,0:00:43.25,0:00:43.77,Default,,0,0,0,,Lifting a bundle of {\1c&HFF00&\u1}pajamas,{\r}
+Dialogue: 0,0:00:44.08,0:00:44.34,Default,,0,0,0,,{\1c&HFF00&\u1}Peter{\r} finds a sheet of paper labeled
+Dialogue: 0,0:00:44.34,0:00:44.38,Default,,0,0,0,,Peter finds a sheet of paper labeled
+Dialogue: 0,0:00:44.38,0:00:44.64,Default,,0,0,0,,Peter {\1c&HFF00&\u1}finds{\r} a sheet of paper labeled
+Dialogue: 0,0:00:44.64,0:00:44.68,Default,,0,0,0,,Peter finds a sheet of paper labeled
+Dialogue: 0,0:00:44.68,0:00:44.72,Default,,0,0,0,,Peter finds {\1c&HFF00&\u1}a{\r} sheet of paper labeled
+Dialogue: 0,0:00:44.72,0:00:44.76,Default,,0,0,0,,Peter finds a sheet of paper labeled
+Dialogue: 0,0:00:44.76,0:00:44.96,Default,,0,0,0,,Peter finds a {\1c&HFF00&\u1}sheet{\r} of paper labeled
+Dialogue: 0,0:00:44.96,0:00:45.01,Default,,0,0,0,,Peter finds a sheet of paper labeled
+Dialogue: 0,0:00:45.01,0:00:45.07,Default,,0,0,0,,Peter finds a sheet {\1c&HFF00&\u1}of{\r} paper labeled
+Dialogue: 0,0:00:45.07,0:00:45.13,Default,,0,0,0,,Peter finds a sheet of paper labeled
+Dialogue: 0,0:00:45.13,0:00:45.49,Default,,0,0,0,,Peter finds a sheet of {\1c&HFF00&\u1}paper{\r} labeled
+Dialogue: 0,0:00:45.49,0:00:45.53,Default,,0,0,0,,Peter finds a sheet of paper labeled
+Dialogue: 0,0:00:45.53,0:00:45.87,Default,,0,0,0,,Peter finds a sheet of paper {\1c&HFF00&\u1}labeled{\r}
+Dialogue: 0,0:00:46.32,0:00:47.06,Default,,0,0,0,,{\1c&HFF00&\u1}Lancaster{\r} North Hospital Discharged Sheet.
+Dialogue: 0,0:00:47.06,0:00:47.12,Default,,0,0,0,,Lancaster North Hospital Discharged Sheet.
+Dialogue: 0,0:00:47.12,0:00:47.38,Default,,0,0,0,,Lancaster {\1c&HFF00&\u1}North{\r} Hospital Discharged Sheet.
+Dialogue: 0,0:00:47.38,0:00:47.46,Default,,0,0,0,,Lancaster North Hospital Discharged Sheet.
+Dialogue: 0,0:00:47.46,0:00:47.97,Default,,0,0,0,,Lancaster North {\1c&HFF00&\u1}Hospital{\r} Discharged Sheet.
+Dialogue: 0,0:00:47.97,0:00:48.27,Default,,0,0,0,,Lancaster North Hospital Discharged Sheet.
+Dialogue: 0,0:00:48.27,0:00:48.93,Default,,0,0,0,,Lancaster North Hospital {\1c&HFF00&\u1}Discharged{\r} Sheet.
+Dialogue: 0,0:00:48.93,0:00:49.05,Default,,0,0,0,,Lancaster North Hospital Discharged Sheet.
+Dialogue: 0,0:00:49.05,0:00:49.25,Default,,0,0,0,,Lancaster North Hospital Discharged {\1c&HFF00&\u1}Sheet.{\r}
+Dialogue: 0,0:00:50.30,0:00:50.38,Default,,0,0,0,,{\1c&HFF00&\u1}He{\r} closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:50.38,0:00:50.42,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:50.42,0:00:50.78,Default,,0,0,0,,He {\1c&HFF00&\u1}closes{\r} the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:50.78,0:00:50.82,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:50.82,0:00:50.92,Default,,0,0,0,,He closes {\1c&HFF00&\u1}the{\r} suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:50.92,0:00:50.96,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:50.96,0:00:51.41,Default,,0,0,0,,He closes the {\1c&HFF00&\u1}suitcase{\r} and brings glory to the pajamas.
+Dialogue: 0,0:00:51.41,0:00:51.45,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:51.45,0:00:51.53,Default,,0,0,0,,He closes the suitcase {\1c&HFF00&\u1}and{\r} brings glory to the pajamas.
+Dialogue: 0,0:00:51.53,0:00:51.57,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:51.57,0:00:51.81,Default,,0,0,0,,He closes the suitcase and {\1c&HFF00&\u1}brings{\r} glory to the pajamas.
+Dialogue: 0,0:00:51.81,0:00:51.85,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:51.85,0:00:52.15,Default,,0,0,0,,He closes the suitcase and brings {\1c&HFF00&\u1}glory{\r} to the pajamas.
+Dialogue: 0,0:00:52.15,0:00:52.17,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:52.17,0:00:52.23,Default,,0,0,0,,He closes the suitcase and brings glory {\1c&HFF00&\u1}to{\r} the pajamas.
+Dialogue: 0,0:00:52.23,0:00:52.27,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:52.27,0:00:52.33,Default,,0,0,0,,He closes the suitcase and brings glory to {\1c&HFF00&\u1}the{\r} pajamas.
+Dialogue: 0,0:00:52.33,0:00:52.37,Default,,0,0,0,,He closes the suitcase and brings glory to the pajamas.
+Dialogue: 0,0:00:52.37,0:00:52.89,Default,,0,0,0,,He closes the suitcase and brings glory to the {\1c&HFF00&\u1}pajamas.{\r}
+Dialogue: 0,0:00:54.23,0:00:54.51,Default,,0,0,0,,{\1c&HFF00&\u1}There{\r} you go.
+Dialogue: 0,0:00:54.51,0:00:54.57,Default,,0,0,0,,There you go.
+Dialogue: 0,0:00:54.57,0:00:54.77,Default,,0,0,0,,There {\1c&HFF00&\u1}you{\r} go.
+Dialogue: 0,0:00:54.77,0:00:54.79,Default,,0,0,0,,There you go.
+Dialogue: 0,0:00:54.79,0:00:54.83,Default,,0,0,0,,There you {\1c&HFF00&\u1}go.{\r}
+Dialogue: 0,0:00:54.24,0:00:54.50,Default,,0,0,0,,{\1c&HFF00&\u1}Thank{\r} you.
+Dialogue: 0,0:00:54.50,0:00:54.54,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:00:54.54,0:00:54.70,Default,,0,0,0,,Thank {\1c&HFF00&\u1}you.{\r}
+Dialogue: 0,0:00:55.66,0:00:55.78,Default,,0,0,0,,{\1c&HFF00&\u1}He{\r} picks up the locket.
+Dialogue: 0,0:00:55.78,0:00:55.80,Default,,0,0,0,,He picks up the locket.
+Dialogue: 0,0:00:55.80,0:00:56.05,Default,,0,0,0,,He {\1c&HFF00&\u1}picks{\r} up the locket.
+Dialogue: 0,0:00:56.05,0:00:56.13,Default,,0,0,0,,He picks up the locket.
+Dialogue: 0,0:00:56.13,0:00:56.21,Default,,0,0,0,,He picks {\1c&HFF00&\u1}up{\r} the locket.
+Dialogue: 0,0:00:56.21,0:00:56.25,Default,,0,0,0,,He picks up the locket.
+Dialogue: 0,0:00:56.25,0:00:56.35,Default,,0,0,0,,He picks up {\1c&HFF00&\u1}the{\r} locket.
+Dialogue: 0,0:00:56.35,0:00:56.39,Default,,0,0,0,,He picks up the locket.
+Dialogue: 0,0:00:56.39,0:00:56.73,Default,,0,0,0,,He picks up the {\1c&HFF00&\u1}locket.{\r}
+Dialogue: 0,0:00:57.14,0:00:57.22,Default,,0,0,0,,{\1c&HFF00&\u1}You{\r} kept it.
+Dialogue: 0,0:00:57.22,0:00:57.26,Default,,0,0,0,,You kept it.
+Dialogue: 0,0:00:57.26,0:00:57.48,Default,,0,0,0,,You {\1c&HFF00&\u1}kept{\r} it.
+Dialogue: 0,0:00:57.48,0:00:57.56,Default,,0,0,0,,You kept it.
+Dialogue: 0,0:00:57.56,0:00:57.62,Default,,0,0,0,,You kept {\1c&HFF00&\u1}it.{\r}
+Dialogue: 0,0:00:58.89,0:00:59.01,Default,,0,0,0,,{\1c&HFF00&\u1}Oh,{\r} of course.
+Dialogue: 0,0:00:59.01,0:00:59.82,Default,,0,0,0,,Oh, of course.
+Dialogue: 0,0:00:59.82,0:00:59.86,Default,,0,0,0,,Oh, {\1c&HFF00&\u1}of{\r} course.
+Dialogue: 0,0:00:59.86,0:00:59.88,Default,,0,0,0,,Oh, of course.
+Dialogue: 0,0:00:59.88,0:01:0.00,Default,,0,0,0,,Oh, of {\1c&HFF00&\u1}course.{\r}

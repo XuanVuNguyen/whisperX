@@ -1,0 +1,62 @@
+{
+    "text": " And so my fellow Americans ask not what your country can do for you ask what you can do for your country",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 7.74,
+            "text": " And so my fellow Americans ask not what your country can do for you",
+            "tokens": [
+                843,
+                523,
+                616,
+                5891,
+                3399,
+                1265,
+                407,
+                644,
+                534,
+                1499,
+                460,
+                466,
+                329,
+                345
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3783563331321434,
+            "compression_ratio": 1.3866666666666667,
+            "no_speech_prob": 0.06237389147281647,
+            "seg-text": [
+                " And so my fellow Americans ask not what your country can do for you"
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 774,
+            "start": 7.74,
+            "end": 10.74,
+            "text": " ask what you can do for your country",
+            "tokens": [
+                50363,
+                1265,
+                644,
+                345,
+                460,
+                466,
+                329,
+                534,
+                1499,
+                50513
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3778875090859153,
+            "compression_ratio": 0.8780487804878049,
+            "no_speech_prob": 0.12865272164344788,
+            "seg-text": [
+                " ask what you can do for your country"
+            ]
+        }
+    ],
+    "language": "en"
+}
