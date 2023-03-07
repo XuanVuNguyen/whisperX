@@ -8,7 +8,7 @@ import whisperx
 # @pytest.mark.parametrize('model_name', whisperx.available_models())
 def test_transcribe(model_name: str = "tiny.en"):
     model = whisperx.load_model(model_name).cuda()
-    audio_path = os.path.join(os.path.dirname(__file__), "jfk.flac")
+    audio_path = "tests/test_data/jfk.flac"
 
     language = "en" if model_name.endswith(".en") else None
     result = model.transcribe(audio_path, language=language, temperature=0.0)

@@ -15,7 +15,8 @@ WORKDIR /home/vscode/
 ENV PATH="${PATH}:/home/vscode/.local/bin/"
 
 USER root
-RUN apt-get update && apt-get install espeak-ng libpangocairo-1.0-0 -y
+RUN apt-get update && apt-get install espeak-ng libpango1.0-0 -y
+#libpangocairo-1.0-0
 USER vscode
 
 RUN pip install pytest black isort
