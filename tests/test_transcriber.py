@@ -9,6 +9,6 @@ def test_main():
 
     transcriber = Transcriber(model_name = MODEL_NAME)
 
-    transcribe: TranscribeResult = transcriber(AUDIO_FILE)
+    transcribe: TranscribeResult = transcriber.run(AUDIO_FILE)
     true_transcribe = TranscribeResult.from_json(TRUE_TRANSCRIBE_PATH)
     assert transcribe.text == true_transcribe.text

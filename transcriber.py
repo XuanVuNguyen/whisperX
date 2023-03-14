@@ -31,7 +31,7 @@ class Transcriber:
 
         self.transcriber = whisperx.load_model(model_name, device=self.device)
 
-    def __call__(self, audio_file: str) -> TranscribeResult:
+    def run(self, audio_file: str) -> TranscribeResult:
         result_dict = self.transcriber.transcribe(audio_file)
         result = TranscribeResult.from_dict(result_dict)
         return result

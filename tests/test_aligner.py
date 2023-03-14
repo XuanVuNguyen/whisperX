@@ -11,6 +11,6 @@ def test_aligner():
 
     transcribe_result = TranscribeResult.from_json(TRUE_TRANSCRIBE_PATH)
 
-    result = aligner(audio_file=AUDIO_FILE, transcribe_result=transcribe_result)
+    result = aligner.run(audio_file=AUDIO_FILE, transcribe_result=transcribe_result)
 
     assert True

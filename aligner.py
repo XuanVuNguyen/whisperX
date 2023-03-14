@@ -32,7 +32,7 @@ class Aligner:
             language_code=language, device=self.device
         )
 
-    def __call__(
+    def run(
         self, audio_file: str, transcribe_result: Optional[TranscribeResult] = None
     ) -> AlignResult:
         language = transcribe_result.language
