@@ -124,6 +124,28 @@ def preprocess_transcript(transcription: str, model_dictionary: dict, model_lang
     return transcription_cleaned, tokens, clean_cdx
 
 
+def get_audio_slice(segment: dict, start_from_previous: bool, prev_t2: float, max_duration: float,  extend_duration: float):
+    # we only pad if not using VAD filtering
+    if "seg_text" not in segment:
+        # pad according original timestamps
+        t1 = max(segment["start"] - extend_duration, 0)
+        t2 = min(segment["end"] + extend_duration, max_duration)
+
+    # use prev_t2 as current t1 if it"s later
+    if start_from_previous and t1 < prev_t2:
+        t1 = prev_t2
+
+    # check if timestamp range is still valid
+    if t1 >= max_duration:
+        print("Failed to align segment: original start time longer than audio duration, skipping...")
+        return None, None
+    if t2 - t1 < 0.02:
+        print("Failed to align segment: duration smaller than 0.02s time precision")
+        return None, None
+
+    return t1, t2
+
+
 def align(
     transcript: Iterator[dict],
     model: torch.nn.Module,
@@ -203,27 +225,16 @@ def align(
 
             transcription_cleaned, tokens, clean_cdx = preprocess_transcript(transcription, model_dictionary, model_lang=model_lang)
 
-            # we only pad if not using VAD filtering
-            if "seg_text" not in segment:
-                # pad according original timestamps
-                t1 = max(segment["start"] - extend_duration, 0)
-                t2 = min(segment["end"] + extend_duration, MAX_DURATION)
-
-            # use prev_t2 as current t1 if it"s later
-            if start_from_previous and t1 < prev_t2:
-                t1 = prev_t2
-
-            # check if timestamp range is still valid
-            if t1 >= MAX_DURATION:
-                print("Failed to align segment: original start time longer than audio duration, skipping...")
+            if transcription_cleaned is None:
                 break
-            if t2 - t1 < 0.02:
-                print("Failed to align segment: duration smaller than 0.02s time precision")
+
+            t1, t2 = get_audio_slice(segment, start_from_previous, prev_t2, MAX_DURATION, extend_duration)
+
+            if t1 is None or t2 is None:
                 break
 
             f1 = int(t1 * SAMPLE_RATE)
             f2 = int(t2 * SAMPLE_RATE)
-
             waveform_segment = audio[:, f1:f2]
 
             with torch.inference_mode():
