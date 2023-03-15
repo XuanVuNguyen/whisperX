@@ -76,6 +76,54 @@ def load_align_model(language_code, device, model_name=None):
     return align_model, align_metadata
 
 
+def preprocess_transcript(transcription: str, model_dictionary: dict, model_lang: str = "en"):
+    # strip spaces at beginning / end, but keep track of the amount.
+    num_leading = len(transcription) - len(transcription.lstrip())
+    num_trailing = len(transcription) - len(transcription.rstrip())
+
+    # TODO: convert number tokenizer / symbols to phonetic words for alignment.
+    # e.g. "$300" -> "three hundred dollars"
+    # currently "$300" is ignored since no characters present in the phonetic dictionary
+
+    # split into words
+    if model_lang not in LANGUAGES_WITHOUT_SPACES:
+        per_word = transcription.split(" ")
+    else:
+        per_word = transcription
+
+    # first check that characters in transcription can be aligned (they are contained in align model"s dictionary)
+    clean_char, clean_cdx = [], []
+    for cdx, char in enumerate(transcription):
+        char_ = char.lower()
+        # wav2vec2 models use "|" character to represent spaces
+        if model_lang not in LANGUAGES_WITHOUT_SPACES:
+            char_ = char_.replace(" ", "|")
+        
+        # ignore whitespace at beginning and end of transcript
+        if cdx < num_leading:
+            pass
+        elif cdx > len(transcription) - num_trailing - 1:
+            pass
+        elif char_ in model_dictionary.keys():
+            clean_char.append(char_)
+            clean_cdx.append(cdx)
+
+    clean_wdx = []
+    for wdx, wrd in enumerate(per_word):
+        if any([c in model_dictionary.keys() for c in wrd]):
+            clean_wdx.append(wdx)
+
+    # if no characters are in the dictionary, then we skip this segment...
+    if len(clean_char) == 0:
+        print(f'Failed to align segment ("{transcription}"): no characters in this segment found in model dictionary, resorting to original...')
+        return None, None          
+    
+    transcription_cleaned = "".join(clean_char)
+    tokens = [model_dictionary[c] for c in transcription_cleaned]
+
+    return transcription_cleaned, tokens, clean_cdx
+
+
 def align(
     transcript: Iterator[dict],
     model: torch.nn.Module,
@@ -151,50 +199,9 @@ def align(
         while True:
             segment_align_success = False
 
-            # strip spaces at beginning / end, but keep track of the amount.
-            num_leading = len(segment["text"]) - len(segment["text"].lstrip())
-            num_trailing = len(segment["text"]) - len(segment["text"].rstrip())
             transcription = segment["text"]
 
-            # TODO: convert number tokenizer / symbols to phonetic words for alignment.
-            # e.g. "$300" -> "three hundred dollars"
-            # currently "$300" is ignored since no characters present in the phonetic dictionary
-
-            # split into words
-            if model_lang not in LANGUAGES_WITHOUT_SPACES:
-                per_word = transcription.split(" ")
-            else:
-                per_word = transcription
-
-            # first check that characters in transcription can be aligned (they are contained in align model"s dictionary)
-            clean_char, clean_cdx = [], []
-            for cdx, char in enumerate(transcription):
-                char_ = char.lower()
-                # wav2vec2 models use "|" character to represent spaces
-                if model_lang not in LANGUAGES_WITHOUT_SPACES:
-                    char_ = char_.replace(" ", "|")
-                
-                # ignore whitespace at beginning and end of transcript
-                if cdx < num_leading:
-                    pass
-                elif cdx > len(transcription) - num_trailing - 1:
-                    pass
-                elif char_ in model_dictionary.keys():
-                    clean_char.append(char_)
-                    clean_cdx.append(cdx)
-
-            clean_wdx = []
-            for wdx, wrd in enumerate(per_word):
-                if any([c in model_dictionary.keys() for c in wrd]):
-                    clean_wdx.append(wdx)
-
-            # if no characters are in the dictionary, then we skip this segment...
-            if len(clean_char) == 0:
-                print(f'Failed to align segment ("{segment["text"]}"): no characters in this segment found in model dictionary, resorting to original...')
-                break          
-           
-            transcription_cleaned = "".join(clean_char)
-            tokens = [model_dictionary[c] for c in transcription_cleaned]
+            transcription_cleaned, tokens, clean_cdx = preprocess_transcript(transcription, model_dictionary, model_lang=model_lang)
 
             # we only pad if not using VAD filtering
             if "seg_text" not in segment:
